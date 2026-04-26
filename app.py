@@ -287,4 +287,4 @@ def compute_volume(eq1, eq2):
 
 st.sidebar.title("Examples")
 st.sidebar.markdown("""
-**Sphere & Cylinder:**
+**Sphere & Cylinder:**)
