@@ -1,4 +1,4 @@
-joblib  streamlit 
+streamlit 
 sympy 
 numpy 
 scipy 
