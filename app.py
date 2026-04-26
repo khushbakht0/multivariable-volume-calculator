@@ -284,7 +284,16 @@ def compute_volume(eq1, eq2):
                               lambda xv: f_y_lo(xv), lambda xv: f_y_hi(xv),
                               epsabs=1e-6, epsrel=1e-6)
     return V, None
-
 st.sidebar.title("Examples")
-st.sidebar.markdown("""
-**Sphere & Cylinder:**)
+st.sidebar.markdown("**Sphere and Cylinder:**")
+st.sidebar.code("x**2 + y**2 + z**2 = 25\nx**2 + y**2 = 9")
+st.sidebar.markdown("**Sphere and Cone:**")
+st.sidebar.code("x**2 + y**2 + z**2 = 16\nz**2 = x**2 + y**2")
+st.sidebar.markdown("**Cylinder and Paraboloid:**")
+st.sidebar.code("x**2 + y**2 = 4\nz = x**2 + y**2")
+st.sidebar.markdown("**Two Paraboloids:**")
+st.sidebar.code("z = x**2 + y**2\nz = 8 - x**2 - y**2")
+st.sidebar.markdown("**Sphere and Plane:**")
+st.sidebar.code("x**2 + y**2 + z**2 = 9\nx + y + z = 3")
+st.sidebar.markdown("**Two Planes:**")
+st.sidebar.code("x + y + z = 2\n2x + 2y + z = 4")
